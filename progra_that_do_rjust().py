@@ -1,2 +1,4 @@
 text = input("ENter a text: ")
-witdh = input("Enter the desired width: ")
+width = int(input("Enter the desired width: "))
+
+total_width = width - len(text)
