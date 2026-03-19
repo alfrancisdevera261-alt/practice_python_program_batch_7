@@ -7,3 +7,4 @@ for characters in text:
         modified_character += characters.swapcase()
     else:
         modified_character += characters
+print(modified_character)
