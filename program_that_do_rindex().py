@@ -8,4 +8,5 @@ for characters in range(len(text)-1, -1, -1):
         index_count = characters
         print(index_count)
         break
-print("There is no match")
+else:
+    print("There is no match")
